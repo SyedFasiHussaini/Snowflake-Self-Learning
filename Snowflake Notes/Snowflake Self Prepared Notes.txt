@@ -1,0 +1,40 @@
+Snow-Flake Certification Notes:
+
+-Snowflake: 
+"Snowflake" is a popular cloud-based data warehousing platform that enables organizations to store, manage, and analyze large amounts of data.
+
+-Traditional data warehouse architecture:
+A traditional data warehouse architecture is a centralized data storage system that is designed to support business intelligence (BI) and analytics activities. It typically consists of several layers that work together to process and manage large amounts of data from various sources.
+
+Here's a breakdown of the different layers in a traditional data warehouse architecture:
+
+Data sources: The first layer of the data warehouse architecture is the data sources. This layer includes all the data sources that feed into the data warehouse, such as transactional databases, operational systems, and external data sources.
+
+ETL (Extract, Transform, Load): The second layer is the ETL layer, which is responsible for extracting data from the data sources, transforming the data into a standardized format, and loading the data into the data warehouse. This layer includes tools and processes for data integration, data quality management, and data profiling.
+
+Data storage: The third layer is the data storage layer, which is where the data is stored in the data warehouse. The data storage layer typically includes a database management system (DBMS) that is optimized for storing and managing large amounts of data, such as a relational database or a multidimensional database.
+
+Data access: The fourth layer is the data access layer, which provides tools and interfaces for users to access and query the data stored in the data warehouse. This layer includes tools such as BI reporting tools, OLAP (Online Analytical Processing) tools, and SQL query tools.
+
+Metadata: The final layer is the metadata layer, which provides information about the data stored in the data warehouse, such as the data definitions, data lineage, and data relationships. The metadata layer is essential for data governance and data management, as it helps ensure the accuracy, consistency, and reliability of the data in the data warehouse.
+
+Overall, a traditional data warehouse architecture is designed to provide a centralized repository of data that can be easily accessed and analyzed by business users. However, this architecture can be complex and expensive to maintain, particularly as the volume and variety of data continues to grow. Newer cloud-based data warehouse platforms, such as Snowflake, offer a more flexible and scalable alternative to traditional data warehouse architectures.
+
+-Centralized repository or centralized data storage system:
+
+A centralized repository or a centralized storage system is a type of data storage architecture where data is stored in a single location or a centralized system. In this architecture, all the data is stored in a common storage system, which can be accessed by multiple users or applications.
+
+A centralized repository is often used in traditional data warehousing systems, where data is extracted from different sources and transformed into a common format before being loaded into the centralized repository. This allows users to access and analyze data from different sources in a unified manner.
+
+The benefits of a centralized repository or storage system include:
+
+Data consistency: Since all the data is stored in a centralized location, it is easier to ensure that the data is consistent and up-to-date.
+
+Data security: Centralized storage systems allow for more robust security and access control mechanisms to be put in place to protect the data.
+
+Simplified management: Centralized storage systems simplify data management and administration, as data can be easily backed up, restored, and archived in a single location.
+
+However, centralized storage systems can also have some drawbacks, such as scalability issues as data volume and variety grow, potential performance bottlenecks due to increased data traffic to and from the central location, and increased risk of data loss or corruption if the central system fails. To address these challenges, newer data storage architectures, such as distributed systems or cloud-based storage, have emerged as alternatives to the traditional centralized storage system.
+
+Is Git and GitHub are centralized systems?
+Git is a distributed version control system that records different versions of a file (or set of files). It lets users access, compare, update, and distribute any of the recorded version(s) at any time. However, GitHub is mainly a hosting platform for hosting Git repositories online.
